@@ -14,7 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.1/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PathCreator/Examples/Scripts/PathFollower.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1wwUh2PRvNhJLwf6JgTWXcIHHfj" />
   <component name="ProjectViewState">
@@ -60,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1629369262474</updated>
       <workItem from="1629369266456" duration="14000" />
-      <workItem from="1629780198759" duration="4266000" />
+      <workItem from="1629780198759" duration="4467000" />
+      <workItem from="1629791158800" duration="2506000" />
     </task>
     <servers />
   </component>
@@ -80,6 +83,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
