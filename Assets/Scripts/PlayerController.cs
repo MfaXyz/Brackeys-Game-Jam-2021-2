@@ -6,7 +6,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Values")] 
+    public float storageValue;
     public Vector2 speedMovement;
+    public float decreaseStorageValue;
     public float maxParticleLifeTime;
 
     [Header("Components")] 
@@ -22,6 +24,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        storageValue -= decreaseStorageValue;
+
         var movement = new Vector2(Input.GetAxis("Horizontal") * speedMovement.x, Input.GetAxis("Vertical") * speedMovement.y);
         rb.AddForce(movement, ForceMode2D.Impulse);
     }

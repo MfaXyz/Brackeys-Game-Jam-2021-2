@@ -9,9 +9,15 @@ public class PlanetController : MonoBehaviour
     [Header("Components")]
     public PathCreator pathCreator;
     [Header("Variables")]
-    public float speedMovement;
+    [SerializeField] private float speedMovement;
+    public float maxSpeed;
     public float distanceTravelled;
     public bool isReverse;
+
+    private void Awake()
+    {
+        speedMovement = maxSpeed;
+    }
 
     private void FixedUpdate()
     {
@@ -36,12 +42,12 @@ public class PlanetController : MonoBehaviour
         {
             if (isReverse)
             {
-                speedMovement = 0.1f;
+                speedMovement = maxSpeed;
                 isReverse = false;
             }
             else
             {
-                speedMovement = -0.1f; 
+                speedMovement = -maxSpeed; 
                 isReverse = true;
             }
         }
