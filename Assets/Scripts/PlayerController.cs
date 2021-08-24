@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 speedMovement;
     public float decreaseStorageValue;
     public float maxParticleLifeTime;
+    public bool isMove;
 
     [Header("Components")] 
     public Rigidbody2D rb;
@@ -24,8 +25,12 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        storageValue -= decreaseStorageValue;
-
+        isMove = rb.velocity.magnitude > 0.5f;
+        if (isMove)
+        {
+            storageValue -= decreaseStorageValue;
+        }
+        
         var movement = new Vector2(Input.GetAxis("Horizontal") * speedMovement.x, Input.GetAxis("Vertical") * speedMovement.y);
         rb.AddForce(movement, ForceMode2D.Impulse);
     }
