@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8361803255282866835}
   - component: {fileID: 8361803255282866832}
   m_Layer: 0
-  m_Name: Planet Root 1
+  m_Name: Planet Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
       - 0
       globalNormalsAngle: 78
       flipNormals: 0
-    vertexPathUpToDate: 0
+    vertexPathUpToDate: 1
     vertexPathMaxAngleError: 5
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 8361803255649977238}
   m_Layer: 0
   m_Name: Planet
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

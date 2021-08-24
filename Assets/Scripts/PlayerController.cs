@@ -48,4 +48,6 @@ public class PlayerController : MonoBehaviour
             laserCapsule.enabled = false;
         }
     }
+
+
 }
