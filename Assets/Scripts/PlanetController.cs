@@ -29,15 +29,21 @@ public class PlanetController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log("Enter");
         if (col.gameObject.CompareTag("LaserGun"))
         {
             speedMovement = 0;
         }
+
+        if (col.gameObject.CompareTag("Planet"))
+        {
+            Destroy(col.transform.parent.gameObject);
+            Destroy(transform.parent.gameObject);
+            
+            GameManager.Instance.CollisionPlanets(transform.position);
+        }
     }
     public void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("Exit");
         if (other.gameObject.CompareTag("LaserGun"))
         {
             if (isReverse)
