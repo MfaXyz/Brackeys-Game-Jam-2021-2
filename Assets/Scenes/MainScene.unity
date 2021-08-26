@@ -681,7 +681,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7569453720068470486, guid: 96a47b638cd092f4295d16b41d7f5bdf, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7569453720068470486, guid: 96a47b638cd092f4295d16b41d7f5bdf, type: 3}
       propertyPath: m_LocalScale.x
@@ -8490,9 +8490,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5e87d3a5a5878b9429d1517a70759430, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f8b9597d45bd5504aba0478823fe7e97, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -8588,7 +8588,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &665296575
 GameObject:
