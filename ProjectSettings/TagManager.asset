@@ -7,6 +7,7 @@ TagManager:
   - LaserGun
   - Planet
   - UIManager
+  - StoragePlace
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - Water
   - UI
   - Boundary
-  - Player
+  - 
   - 
   - 
   - 

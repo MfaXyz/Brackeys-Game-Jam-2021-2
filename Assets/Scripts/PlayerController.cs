@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 speedMovement;
     public float rotationSpeed;
     public float decreaseStorageValue;
+    public float increaseStorageValue;
     public float maxGunParticleLifeTime;
     public float maxEngineParticleLifeTime;
     public bool isMove;
@@ -28,15 +29,14 @@ public class PlayerController : MonoBehaviour
 
         for (var i = 0; i < 5; i++)
         {
-            Debug.Log(i);
             _enginesParticles[i] = enginesParticles[i].main;
-            Debug.Log(i);
         }
     }
 
     private void FixedUpdate()
     {
         isMove = rb.velocity.magnitude > 0.5f;
+        isMove = Mathf.Abs(rb.angularVelocity) > 0.1f;
         if (isMove)
         {
             storageValue -= decreaseStorageValue;
@@ -67,5 +67,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("StoragePlace"))
+        {
+            if (storageValue <= 100)
+            {
+                storageValue += increaseStorageValue;
+            }
+            
+        }
+    }
 }
