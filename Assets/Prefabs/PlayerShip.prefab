@@ -9890,7 +9890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 782b3b88d3ed1a0408d8ca83aaf1aa31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storageValue: 100
+  storageValue: 50
   speedMovement: {x: 0, y: 0.5}
   rotationSpeed: 0.1
   decreaseStorageValue: 0.05
