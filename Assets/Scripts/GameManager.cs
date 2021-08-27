@@ -44,7 +44,6 @@ public class GameManager : MonoBehaviour
     }
     public void CollisionPlanets (Vector3 location)
     {
-        Debug.Log("TestSingleton");
         destroyedPlanets++;
         Instantiate(explosionObject, location, Quaternion.identity);
         if (destroyedPlanets == maxPlanets)
