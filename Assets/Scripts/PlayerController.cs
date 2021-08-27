@@ -35,8 +35,15 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        isMove = rb.velocity.magnitude > 0.5f;
-        isMove = Mathf.Abs(rb.angularVelocity) > 0.1f;
+        if (Input.GetAxis("Horizontal") != 0f || Input.GetAxis("Vertical") != 0f || Mathf.Abs(rb.angularVelocity) > 0.1f)
+        {
+            isMove = true;
+        }
+        else
+        {
+            isMove = false;
+        }
+        //isMove = rb.velocity.magnitude !> 0.5f;
         if (isMove)
         {
             storageValue -= decreaseStorageValue;
@@ -55,6 +62,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+
         if (Input.GetMouseButton(0))
         {
             _laserParticle.startLifetime = maxGunParticleLifeTime;
