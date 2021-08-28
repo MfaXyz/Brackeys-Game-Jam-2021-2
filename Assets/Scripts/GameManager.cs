@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -48,6 +49,7 @@ public class GameManager : MonoBehaviour
         Instantiate(explosionObject, location, Quaternion.identity);
         if (destroyedPlanets == maxPlanets)
         {
+            PlayerPrefs.SetInt("lastLevel", SceneManager.GetActiveScene().buildIndex + 1);
             uiManager.StartVictory();
         }
     }

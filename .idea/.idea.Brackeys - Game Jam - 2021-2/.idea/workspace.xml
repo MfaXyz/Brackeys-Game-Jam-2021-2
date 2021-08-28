@@ -3,9 +3,52 @@
   <component name="ChangeListManager">
     <list default="true" id="3472192f-ad54-48e4-bb0c-23efe641d09b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brackeys - Game Jam - 2021-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brackeys - Game Jam - 2021-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GAME.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GAME.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Black Hole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Black Hole.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Black HoleD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Black HoleD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ExplosionPlanet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ExplosionPlanet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameover Explosion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Gameover Explosion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerShip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerShip.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 02.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 03.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 04.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 04.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartScene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Hole.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Hole/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Hole/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Planets/planet1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Planets/planet1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Planets/planet3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Planets/planet3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Planets/planet4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Planets/planet4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Planets/planet5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Planets/planet5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Planets/planet6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Planets/planet6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Planets/planet7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Planets/planet7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Prototypes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Prototypes/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Prototypes/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Prototypes/Outline-Planet.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Prototypes/Outline-Planet.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Prototypes/White-Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Prototypes/White-Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/SpaceStation/Wing.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/SpaceStation/Wing.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/SpaceStation/entry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/SpaceStation/entry.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spaceship/GUN.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spaceship/GUN.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spaceship/Space Craft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spaceship/Space Craft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Spaceship/Ventilator.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Spaceship/Ventilator.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI/1188966.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI/1188966.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI/left-click.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UI/left-click.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI/planet1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UI/planet1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI/wasd.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UI/wasd.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +125,8 @@
       <workItem from="1629987879050" duration="120000" />
       <workItem from="1630038876818" duration="134000" />
       <workItem from="1630069622560" duration="3498000" />
+      <workItem from="1630147095343" duration="5469000" />
+      <workItem from="1630162241722" duration="501000" />
     </task>
     <servers />
   </component>
