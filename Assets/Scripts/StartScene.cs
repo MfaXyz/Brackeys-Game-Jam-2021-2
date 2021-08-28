@@ -18,7 +18,7 @@ public class StartScene : MonoBehaviour
         lastLevel = PlayerPrefs.GetInt("lastLevel") - 1;
         for (var i = 0; i <= lastLevel; i++)
         {
-            lockImages[i].SetActive(false);
+            lockImages[i].SetActive(true);
             btnLevels[i].enabled = true;
         }
     }

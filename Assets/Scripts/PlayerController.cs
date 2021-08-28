@@ -67,11 +67,13 @@ public class PlayerController : MonoBehaviour
         {
             _laserParticle.startLifetime = maxGunParticleLifeTime;
             laserCapsule.enabled = true;
+            laserParticle.Play();
         }
         else
         {
             _laserParticle.startLifetime = 0;
             laserCapsule.enabled = false;
+            laserParticle.Stop();
         }
     }
 
