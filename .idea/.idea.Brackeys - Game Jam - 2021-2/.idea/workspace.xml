@@ -3,27 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="3472192f-ad54-48e4-bb0c-23efe641d09b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brackeys - Game Jam - 2021-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brackeys - Game Jam - 2021-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audios/Musics/Visager - Battle! [Loop].mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audios/Musics/Visager - Battle! [Loop].mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audios/Musics/bensound-slowmotion.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audios/Musics/bensound-slowmotion.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Black Hole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Black Hole.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/ExplosionPlanet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/ExplosionPlanet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/Gameover Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Gameover Explosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Planet Root.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Planet Root.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerShip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerShip.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/White Hole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/White Hole.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/White HoleD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/White HoleD.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 01.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 02.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 03.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 03.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 04.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 04.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlanetController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlanetController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/SkyBox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Backgrounds/SkyBox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/Space Background.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/Space Background.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/SpaceBackgroundL1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/SpaceBackgroundL1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/SpaceBackgroundL2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/SpaceBackgroundL2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/SpaceBackgroundL3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/SpaceBackgroundL3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Backgrounds/background1.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Backgrounds/background1.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Effects/BeamLow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Effects/BeamLow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Effects/ExplosionLine.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Effects/ExplosionLine.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI/FuelBar.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UI/FuelBar.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI/FuelIcon.psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UI/FuelIcon.psd.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UI/Menu.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UI/Menu.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
@@ -113,6 +116,10 @@
       <workItem from="1630147095343" duration="5469000" />
       <workItem from="1630162241722" duration="501000" />
       <workItem from="1630172653149" duration="1992000" />
+      <workItem from="1630209242515" duration="4161000" />
+      <workItem from="1630214806933" duration="3048000" />
+      <workItem from="1630219050723" duration="58000" />
+      <workItem from="1630222107884" duration="1257000" />
     </task>
     <servers />
   </component>

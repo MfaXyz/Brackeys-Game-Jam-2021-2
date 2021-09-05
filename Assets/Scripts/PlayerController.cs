@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
     public CapsuleCollider2D laserCapsule;
     private ParticleSystem.MainModule[] _enginesParticles = new ParticleSystem.MainModule[5];
     public ParticleSystem[] enginesParticles;
+    public AudioSource[] laserSounds;
+    public SpriteRenderer playerSprite;
 
     private void Awake()
     {
@@ -63,17 +65,29 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            laserParticle.Play();
+            laserSounds[0].volume = 1f;
+            laserSounds[1].volume = 1f;
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            laserParticle.Stop();
+            laserSounds[0].volume = 0;
+            laserSounds[1].volume = 0;
+        }
         if (Input.GetMouseButton(0))
         {
             _laserParticle.startLifetime = maxGunParticleLifeTime;
             laserCapsule.enabled = true;
-            laserParticle.Play();
+
         }
         else
         {
             _laserParticle.startLifetime = 0;
             laserCapsule.enabled = false;
-            laserParticle.Stop();
+            
         }
     }
 
@@ -83,7 +97,12 @@ public class PlayerController : MonoBehaviour
         {
             if (storageValue <= 100)
             {
+                playerSprite.color = new Color(255, 255, Mathf.PingPong(Time.time, 1), 255);
                 storageValue += increaseStorageValue;
+            }
+            else
+            {
+                playerSprite.color = Color.white;
             }
             
         }

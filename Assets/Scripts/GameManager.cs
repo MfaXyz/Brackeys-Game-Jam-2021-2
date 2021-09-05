@@ -40,7 +40,11 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1f);
-            uiManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
+            if (uiManager == null)
+            {
+                uiManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
+            }
+            
         }
     }
     public void CollisionPlanets (Vector3 location)

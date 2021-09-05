@@ -8,6 +8,7 @@ public class PlanetController : MonoBehaviour
 {
     [Header("Components")]
     public PathCreator pathCreator;
+    
     [Header("Variables")]
     [SerializeField] private float speedMovement;
     public float maxSpeed;

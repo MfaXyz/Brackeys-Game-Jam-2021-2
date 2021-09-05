@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45883632, g: 0.46539623, b: 0.4842342, a: 1}
+  m_IndirectSpecularColor: {r: 0.45883572, g: 0.4653948, b: 0.48423475, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1140,6 +1140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 610864661267854876, guid: aec5be3300093274da8223831e8c9b95, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aec5be3300093274da8223831e8c9b95, type: 3}
 --- !u!114 &351799848 stripped
@@ -1832,7 +1836,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f8b9597d45bd5504aba0478823fe7e97, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2025,6 +2029,7 @@ GameObject:
   - component: {fileID: 713821134}
   - component: {fileID: 713821137}
   - component: {fileID: 713821138}
+  - component: {fileID: 713821139}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2163,6 +2168,23 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &713821139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713821133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 56612aeedc4783741bf0b0aadd25c28b, type: 2}
 --- !u!1 &742716549
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,6 +18,18 @@ public class UIManager : MonoBehaviour
     [Header("Variables")] 
     public bool isLose;
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F3))
+        {
+            ResetGameBtn();
+        }
+        if (Input.GetKeyDown(KeyCode.F5))
+        {
+            BackToMenu();
+        }
+    }
+
     private void FixedUpdate()
     {
         if (playerController.storageValue >= 0)
@@ -30,6 +42,8 @@ public class UIManager : MonoBehaviour
         }
 
         planetText.text = GameManager.Instance.destroyedPlanets + "/" + GameManager.Instance.maxPlanets;
+
+
     }
     private IEnumerator GameOverEnergy()
     {
@@ -77,6 +91,8 @@ public class UIManager : MonoBehaviour
 
     public void BackToMenu()
     {
+        GameManager.Instance.destroyedPlanets = 0;
+        Time.timeScale = 1;
         SceneManager.LoadScene(0,LoadSceneMode.Single);
     }
 }
